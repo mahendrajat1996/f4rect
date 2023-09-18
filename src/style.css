@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body,
+  html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section {
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid #ccc; */
+    padding: 50px;
+    background-color: #ffffff;
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    box-shadow: -30px 20px 100px 10px #fb184e78;
+    border-radius: 20px;
+    margin: 20px auto;
+  }
+  .section input {
+    margin-top: 20px;
+    padding: 8px;
+    width: 250px;
+  }
+  .section button {
+    margin-top: 20px;
+    padding: 15px;
+  }
+  .btn {
+    display: flex;
+    gap: 25px;
+  }
+  .inputField {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
